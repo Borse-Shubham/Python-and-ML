@@ -4,6 +4,6 @@ def main():
     print("Number of Cores are : " , multiprocessing.cpu_count())
 
 
-if name == "main":
+if __name__ == "__main__":
     main()
     
